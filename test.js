@@ -24,7 +24,6 @@ const func = (title, time) => {
 
   return promise;
 };
-
 //Action
 const action = async () => {
   try {
