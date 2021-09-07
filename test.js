@@ -28,8 +28,7 @@ const func = (title, time) => {
 //Action
 const action = async () => {
   try {
-    for (let i in repo) {
-      let { title, time } = repo[i];
+    for (let { title, time } of repo) {
       const data = await func(title, time);
       console.log(data);
     }
