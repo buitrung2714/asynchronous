@@ -12,7 +12,7 @@ const repo = [
     time: 4000,
   },
 ];
-console.log(a);
+
 const func = (title, time) => {
   const promise = new Promise((resolve, reject) => {
     if (repo.length > 0) {
